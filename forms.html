@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="forms.css">
+    </head>
+    <body>
+        <div>
+            <div>
+                <h1>Friends Registration Form</h1>
+            </div>
+            <div>
+                <input type="text" name="fname" id="fname" placeholder="First Name" required>
+            </div>
+            <div>
+                <input type="text" name="mname" id="mname" placeholder="Middle Name" required>
+            </div>
+            <div>
+                <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+            </div>
+            <div>
+                <input type="email" id="Eadd" class="Eadd" name="email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <input type="text" id="Address" name="address" placeholder="Address">
+            </div>
+            <div class="input-box">
+                <p> <input type="number" class="row" id="zcode-id" name="zcode" placeholder="Zip code"></p>
+                <p> <input type="tel" id="phone" class="row" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="Phone Number"></p>
+            </div>
+            <div class="input-box">
+                <p class="bdate-row" id="date" class="bdate">Birthdate:</p>
+                <p class="bdate-row"> <input type="date" id="birthdate" class="bdate" name="bdate"></p>
+            </div>
+            <div>
+                <div>
+                    <p>Gender:</p>
+                </div>
+            </div>
+            <div class="input-box">
+                <label>
+                    <input type="radio" name="gender" id="male" class="gender">
+                    <span class="span">Male</span>
+                </label>
+                <label>
+                    <input type="radio" name="gender" id="female" class="gender">
+                    <span class="span">Female</span>
+                </label>
+                <label>
+                    <input type="radio" name="gender" id="notToanswer" class="gender">
+                    <span class="span">Prefer not to Answer</span>
+                </label>    
+            </div>
+            <div>
+                <p>Relationship Status</p>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="radio" id="single-id" class="custom-radio">
+                    <span class="span">Single</span>
+                </label>
+                <label>
+                    <input type="radio" name="radio" id="married-id" class="custom-radio">
+                    <span class="span">Married</span>
+                </label>
+            </div>
+            <div>
+                <input type="submit" id="submit">
+            </div>
+        </div>
+    </body>
+</html>
